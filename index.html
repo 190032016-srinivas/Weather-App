@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="weather_db_heading">Weather Dashboard</div>
+    <div id="parent_search_and_today">
+        <div id="parent_search">
+            <button id="useloc_btn">Use Location</button>
+            <button id="search_btn">Search</button>
+            <!-- <div id="seach_heading">Enter a City Name</div> -->
+            <div id="parent_input_dd">
+                <input id="city_input" type="text" placeholder="Enter a City Name" autocomplete="off">
+                <div id="dropdown">
+                    <!-- <div class="dd_city">hyderabad</div>
+                    <div class="dd_city">delhi</div> -->
+                    <!-- <div class="dd_city">hyderabad</div>
+                    <div class="dd_city">delhi</div>
+                    <div class="dd_city">hyderabad</div>
+                    <div class="dd_city">delhi</div> -->
+                </div>
+            </div>
+            <!-- <button id="search_btn">Search</button> -->
+            <!-- <button id="useloc_btn">Use Location</button> -->
+        </div>
+        <div id="parent_today">
+            <div id="parent_details">
+                <div id="city_date">London UK</div>
+                <div id="temdiv">Temp 55C</div>
+                <div id="wind">wind 50kmh</div>
+                <div id="humidity">humidity 28%</div>
+                <button id="full_data">Full Data</button>
+            </div>
+            <div id="parent_discription">'Partly cloudy through out the day.'</div>
+            <div id="parent_img">
+                <img id="today_img"
+                    src="https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/SVG/1st%20Set%20-%20Color/clear-night.svg"
+                    alt="sunny">
+                <div id="today_weather">Sunny</div>
+            </div>
+        </div>
+    </div>
+    <div id="heading_5day">5-Day Forecast</div>
+    <div id="parent_future">
+        <div class="fut_card">
+            <div>(24-45-4444)</div>
+            <div id="fut_img_cont">
+                <img class="fut_img"
+                    src="https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/SVG/1st%20Set%20-%20Color/clear-day.svg"
+                    alt="sunny">
+                <div>Rainy</div>
+            </div>
+            <div>Temp:55C</div>
+            <div>wind:50Kmph</div>
+            <div>humidity:28%</div>
+        </div>
+        <div class="fut_card">
+            <div>(24-45-4444)</div>
+            <div id="fut_img_cont">
+                <img class="fut_img"
+                    src="https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/SVG/1st%20Set%20-%20Color/clear-night.svg"
+                    alt="sunny">
+                <div>Rainy</div>
+            </div>
+            <div>Temp:55C</div>
+            <div>wind:40Kmph</div>
+            <div>humidity:28%</div>
+        </div>
+        <div class="fut_card">
+            <div>(24-45-4444)</div>
+            <div id="fut_img_cont">
+                <img class="fut_img"
+                    src="https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/SVG/1st%20Set%20-%20Color/clear-night.svg"
+                    alt="sunny">
+                <div>Rainy</div>
+            </div>
+            <div>Temp:55C</div>
+            <div>wind:40Kmph</div>
+            <div>humidity:28%</div>
+        </div>
+        <div class="fut_card">
+            <div>(24-45-4444)</div>
+            <div id="fut_img_cont">
+                <img class="fut_img"
+                    src="https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/SVG/1st%20Set%20-%20Color/clear-night.svg"
+                    alt="sunny">
+                <div>Rainy</div>
+            </div>
+            <div>Temp:55C</div>
+            <div>wind:40Kmph</div>
+            <div>humidity:28%</div>
+        </div>
+        <div class="fut_card">
+            <div>(24-45-4444)</div>
+            <div id="fut_img_cont">
+                <img class="fut_img"
+                    src="https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/SVG/1st%20Set%20-%20Color/clear-night.svg"
+                    alt="sunny">
+                <div>Rainy</div>
+            </div>
+            <div>Temp:55C</div>
+            <div>wind:40Kmph</div>
+            <div>humidity:28%</div>
+        </div>
+    </div>
+</body>
+
+</html>
